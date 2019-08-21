@@ -1,0 +1,2 @@
+summon area_effect_cloud ~ ~ ~ {Tags: ["boomber.veinminer.miner"], Age: 0, Duration: 1}
+scoreboard players operation @e[type=area_effect_cloud, tag=boomber.veinminer.miner, distance=..0.3] bb.vm.state = #bb.vm.mining_state bb.success

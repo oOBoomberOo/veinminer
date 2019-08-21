@@ -1,0 +1,18 @@
+{
+	"display": {
+		"title": "Veinminer v1.0.0",
+		"description": "Just like other 100+ Veinminer datapack out there!",
+		"icon": {
+			"item": "minecraft:diamond_pickaxe"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "boomber:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	
+	}
+}

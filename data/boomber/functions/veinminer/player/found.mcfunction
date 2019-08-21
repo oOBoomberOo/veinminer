@@ -1,0 +1,2 @@
+execute at @e[type=item, nbt={Age: 0s}, tag=!boomber.veinminer.ignore, distance=..1] align xyz positioned ~0.5 ~0.5 ~0.5 run function boomber:veinminer/veinmine/activate
+scoreboard players set @s bb.success 1

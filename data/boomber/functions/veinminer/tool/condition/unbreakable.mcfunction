@@ -1,0 +1,1 @@
+scoreboard players add #bb.vm.ignore bb.success 1
