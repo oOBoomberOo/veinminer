@@ -21,3 +21,6 @@ execute if entity @s[nbt={Item: {id: "minecraft:quartz"}}] run scoreboard player
 execute if entity @s[nbt={Item: {id: "minecraft:nether_quartz_ore"}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 8
 
 execute if entity @s[nbt={Item: {id: "minecraft:ancient_debris"}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 9
+
+execute if entity @s[nbt={Item: {id: "minecraft:gold_nugget"}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 10
+execute if entity @s[nbt={Item: {id: "minecraft:nether_gold_ore"}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 10
