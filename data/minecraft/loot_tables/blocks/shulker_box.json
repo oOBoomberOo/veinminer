@@ -14,7 +14,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "nbt": "{ucit:{id: \"inventory_modifier\"}}"
+                    "nbt": "{ctc:{id: \"inventory_modifier\"}}"
                   }
                 }
               ]
