@@ -14,7 +14,7 @@
                 {
                   "condition": "minecraft:match_tool",
                   "predicate": {
-                    "nbt": "{ctc:{id: \"inventory_modifier\"}}"
+                    "nbt": "{drop_contents: 1b}"
                   }
                 }
               ]
@@ -57,7 +57,7 @@
                   ]
                 }
               ],
-              "name": "minecraft:shulker_box"
+              "name": "minecraft:yellow_shulker_box"
             }
           ]
         }
