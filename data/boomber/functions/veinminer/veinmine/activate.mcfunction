@@ -8,6 +8,7 @@ execute if score #bb.vm.mining_state bb.vm.success matches 7 run function boombe
 execute if score #bb.vm.mining_state bb.vm.success matches 8 run function boomber:veinminer/veinmine/spread/quartz
 execute if score #bb.vm.mining_state bb.vm.success matches 9 run function boomber:veinminer/veinmine/spread/ancient_debris
 execute if score #bb.vm.mining_state bb.vm.success matches 10 run function boomber:veinminer/veinmine/spread/nether_gold
+execute if score #bb.vm.mining_state bb.vm.success matches 11 run function boomber:veinminer/veinmine/spread/copper
 
 execute store result score #bb.vm.count bb.vm.var if entity @e[type=area_effect_cloud, tag=boomber.veinminer.miner]
 execute as @e[type=experience_orb, limit=1, tag=!global.ignore, sort=nearest, nbt={Age: 0s}] store result score #bb.vm.xp bb.vm.var run data get entity @s Value
