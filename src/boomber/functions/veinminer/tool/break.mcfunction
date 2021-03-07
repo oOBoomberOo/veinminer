@@ -1,0 +1,1 @@
+replaceitem entity @s weapon.mainhand minecraft:air

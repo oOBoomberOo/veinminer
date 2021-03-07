@@ -1,0 +1,17 @@
+{
+	"display": {
+		"title": "Veinminer",
+		"description": "Just like any other 100+ Veinminer datapack out there!",
+		"icon": {
+			"item": "minecraft:diamond_pickaxe"
+		},
+		"announce_to_chat": false,
+		"show_toast": false
+	},
+	"parent": "global:boomber",
+	"criteria": {
+		"trigger": {
+			"trigger": "minecraft:tick"
+		}
+	}
+}

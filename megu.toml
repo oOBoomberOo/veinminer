@@ -1,0 +1,6 @@
+[build]
+src = 'src/'
+output = 'data/'
+
+[template]
+ore = ["coal_ore", "iron_ore", "gold_ore", "redstone_ore", "lapis_ore", "emerald_ore", "diamond_ore", "quartz_ore", "nether_gold_ore", "ancient_debris"]
