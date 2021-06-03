@@ -1,1 +1,1 @@
-scoreboard players add #bb.vm.ignore bb.vm.success 1
+scoreboard players add $ignore bb.vm.var 1

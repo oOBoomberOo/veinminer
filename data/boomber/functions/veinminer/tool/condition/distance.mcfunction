@@ -1,2 +1,2 @@
-scoreboard players add #bb.vm.ignore bb.vm.success 0
-scoreboard players set #bb.vm.tool_state bb.vm.success 0
+scoreboard players add $ignore bb.vm.var 0
+scoreboard players set $tool_state bb.vm.var 0

@@ -1,2 +1,0 @@
-summon minecraft:marker ~ ~ ~ {Tags: ['boomber.veinminer.miner']}
-scoreboard players operation @e[type=marker, tag=boomber.veinminer.miner, distance=..0.3] bb.vm.state = #bb.vm.mining_state bb.vm.success

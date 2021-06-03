@@ -1,8 +1,5 @@
 scoreboard objectives add bb.vm.var dummy
-scoreboard objectives add bb.vm.calc dummy
-scoreboard objectives add bb.vm.success dummy
 
-scoreboard objectives add bb.vm.state dummy
 scoreboard objectives add bb.vm.sneaky minecraft.custom:minecraft.sneak_time
 
 scoreboard objectives add bb.vm.wp minecraft.used:minecraft.wooden_pickaxe

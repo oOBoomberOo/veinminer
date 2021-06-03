@@ -1,0 +1,1 @@
+summon minecraft:marker ~ ~ ~ {Tags: ['boomber.veinminer.miner']}

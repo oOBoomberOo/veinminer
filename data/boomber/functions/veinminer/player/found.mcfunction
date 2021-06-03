@@ -1,2 +1,2 @@
 execute at @e[type=item, nbt={Age: 0s}, tag=!boomber.veinminer.ignore, tag=!global.ignore, tag=!global.ignore.pos, distance=..1] align xyz positioned ~0.5 ~0.5 ~0.5 run function boomber:veinminer/veinmine/activate
-scoreboard players set @s bb.vm.success 1
+scoreboard players set #raycast bb.vm.var 1
