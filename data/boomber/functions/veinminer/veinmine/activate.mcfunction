@@ -10,8 +10,8 @@ execute if score #bb.vm.mining_state bb.vm.success matches 9 run function boombe
 execute if score #bb.vm.mining_state bb.vm.success matches 10 run function boomber:veinminer/veinmine/spread/nether_gold
 execute if score #bb.vm.mining_state bb.vm.success matches 11 run function boomber:veinminer/veinmine/spread/copper
 
-execute store result score #bb.vm.count bb.vm.var if entity @e[type=area_effect_cloud, tag=boomber.veinminer.miner]
+execute store result score #bb.vm.count bb.vm.var if entity @e[type=marker, tag=boomber.veinminer.miner]
 execute as @e[type=experience_orb, limit=1, tag=!global.ignore, sort=nearest, nbt={Age: 0s}] store result score #bb.vm.xp bb.vm.var run data get entity @s Value
 execute as @e[type=experience_orb, limit=1, tag=!global.ignore, sort=nearest, nbt={Age: 0s}] store result entity @s Value short 1 run scoreboard players operation #bb.vm.xp bb.vm.var *= #bb.vm.count bb.vm.var
 
-execute at @e[type=area_effect_cloud, tag=boomber.veinminer.miner] if block ~ ~ ~ #boomber:veinminer/ore run function boomber:veinminer/miner/suicide
+execute at @e[type=marker, tag=boomber.veinminer.miner] if block ~ ~ ~ #boomber:veinminer/ore run function boomber:veinminer/miner/suicide
