@@ -1,2 +1,2 @@
 [datapack]
-includes = ["data/*", "pack.mcmeta"]
+includes = ["data/*", "pack.mcmeta", "LICENSE"]
