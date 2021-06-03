@@ -1,4 +1,5 @@
 scoreboard players set $tool_state bb.vm.var 1
+scoreboard players add $activated bb.vm.var 1
 
 function boomber:veinminer/miner/new
 execute if block ~ ~ ~ [ore] run function boomber:veinminer/tool/check
