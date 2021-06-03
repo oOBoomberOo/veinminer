@@ -1,0 +1,3 @@
+[build]
+src = "src/"
+output = "data/"
