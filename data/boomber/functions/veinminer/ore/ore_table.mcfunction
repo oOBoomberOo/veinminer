@@ -5,8 +5,10 @@ execute if entity @s[nbt={Item: {id: 'minecraft:lapis_lazuli'}}] run scoreboard 
 execute if entity @s[nbt={Item: {id: 'minecraft:lapis_ore'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 2
 
 execute if entity @s[nbt={Item: {id: 'minecraft:iron_ore'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 3
+execute if entity @s[nbt={Item: {id: 'minecraft:raw_iron'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 3
 
 execute if entity @s[nbt={Item: {id: 'minecraft:gold_ore'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 4
+execute if entity @s[nbt={Item: {id: 'minecraft:raw_gold'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 4
 
 execute if entity @s[nbt={Item: {id: 'minecraft:redstone'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 5
 execute if entity @s[nbt={Item: {id: 'minecraft:redstone_ore'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 5
@@ -26,3 +28,4 @@ execute if entity @s[nbt={Item: {id: 'minecraft:gold_nugget'}}] run scoreboard p
 execute if entity @s[nbt={Item: {id: 'minecraft:nether_gold_ore'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 10
 
 execute if entity @s[nbt={Item: {id: 'minecraft:copper_ore'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 11
+execute if entity @s[nbt={Item: {id: 'minecraft:raw_copper'}}] run scoreboard players set #bb.vm.mining_state bb.vm.success 11
