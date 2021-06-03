@@ -25,3 +25,5 @@ execute as @e[type=experience_orb, limit=1, tag=!global.ignore, sort=nearest, nb
 execute as @e[type=experience_orb, limit=1, tag=!global.ignore, sort=nearest, nbt={Age: 0s}] store result entity @s Value short 1 run scoreboard players operation #xp_value bb.vm.var *= #block_count bb.vm.var
 
 execute at @e[type=marker, tag=boomber.veinminer.miner] if block ~ ~ ~ #boomber:veinminer/ore run function boomber:veinminer/miner/remove
+
+kill @e[type=marker, tag=boomber.veinminer.miner]
