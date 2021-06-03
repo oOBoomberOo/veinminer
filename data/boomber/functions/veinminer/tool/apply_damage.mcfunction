@@ -1,7 +1,5 @@
-setblock ~ 255 ~ minecraft:yellow_shulker_box
-data modify block ~ 255 ~ Items append from entity @s SelectedItem
+#declare storage boomber:veinminer
 
-execute store result block ~ 255 ~ Items[0].tag.Damage int 1 run scoreboard players get #bb.vm.damage bb.vm.var
+execute store result storage boomber:veinminer damage int 1 run scoreboard players get #bb.vm.damage bb.vm.var
 
-loot replace entity @s weapon.mainhand 1 mine ~ 255 ~ iron_pickaxe{drop_contents: 1b}
-setblock ~ 255 ~ minecraft:air
+item modify entity @s weapon.mainhand boomber:veinminer/take_damage

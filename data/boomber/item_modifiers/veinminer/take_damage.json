@@ -1,0 +1,14 @@
+{
+	"function": "minecraft:copy_nbt",
+	"source": {
+		"type": "storage",
+		"source": "boomber:veinminer"
+	},
+	"ops": [
+		{
+			"source": "damage",
+			"target": "Damage",
+			"op": "replace"
+		}
+	]
+}
