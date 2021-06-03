@@ -13,6 +13,13 @@ jobs:
     steps:
       - uses: actions/checkout@v2
 
+      - uses: oOBoomberOo/megu-pipeline@v1
+        with:
+          version: '0.3.0'
+        
+      - name: Build Megumax
+        run: megu
+
       - name: Release Datapack
         uses: oOBoomberOo/datapack-pipeline@v1
         env:
